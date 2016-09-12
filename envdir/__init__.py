@@ -1,6 +1,6 @@
 from .__main__ import runner, go
 from .env import Env  # noqa
-from .runner import Response #noqa
+from .runner import Response  # noqa
 from .version import __version__  # noqa
 
 open = runner.open
